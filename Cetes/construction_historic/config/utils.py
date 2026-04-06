@@ -8,17 +8,17 @@ BASE_DIR = {
         2024,
         2025,
         2026,
-    ): "G:/Unidades compartidas/Liquidez/Formularios ML/{date:%Y}/{date:%m}. {month} {date:%Y}",
+    ): "G:/path_1/{date:%Y}/{date:%m}. {month} {date:%Y}",
     (
         2016,
         2017,
-    ): "G:/Unidades compartidas/Riesgos/Liquidez/Formularios/Fuentes {date:%Y}/{date:%m} {month}/ML",
+    ): "G:/path_2/{date:%Y}/{date:%m} {month}/ML",
     (
         2018,
         2019,
         2020,
         2021,
-    ): "G:/Unidades compartidas/Riesgos/Liquidez/Formularios/Fuentes {date:%Y}/{date:%m} {month}/",
+    ): "G:/path_3/{date:%Y}/{date:%m} {month}/",
 }
 
 
