@@ -3,7 +3,7 @@ import numpy as np
 
 
 def main():
-    data = pd.read_excel("output/data_cetes_20220101_20260227.xlsx")
+    data = pd.read_excel("output/name_file.xlsx")
     data.set_index("DIAS X VENCER", inplace=True)
 
     def row_pct(row):
@@ -14,7 +14,7 @@ def main():
         return out
 
     pct_data = data.apply(row_pct, axis=1)
-    pct_data.to_excel("output/data_cetes_20220101_20260227_variacion.xlsx")
+    pct_data.to_excel("output/name_file_variacion.xlsx")
 
 
 if __name__ == "__main__":
